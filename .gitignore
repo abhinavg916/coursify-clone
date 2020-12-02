@@ -20,4 +20,8 @@ node_modules
 
 npm-debug.log*
 yarn-debug.log*
+<<<<<<< HEAD
 yarn-error.log*
+=======
+yarn-error.log*
+>>>>>>> 72620ca07933077b6454cf23175b73961016d8d0
