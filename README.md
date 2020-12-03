@@ -18,10 +18,3 @@
 
 - Name - Abhinav
 - GitHub - [github.com/abhinavg916](https://github.com/abhinavg916)
-
----
-# GIVEN Homepage
-![](https://github.com/abhinavg916/tripupp-assignment/blob/main/Given%20Homepage.png)
-
-# FINAL Homepage
-![](https://github.com/abhinavg916/tripupp-assignment/blob/main/Final%20Homepage.png)
