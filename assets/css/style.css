@@ -54,6 +54,6 @@
   border-radius: 20px !important;
 }
 
-footer a {
+footer a:hover {
   text-decoration: none;
 }
