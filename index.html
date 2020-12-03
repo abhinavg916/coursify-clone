@@ -22,7 +22,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul id="navs" class="navbar-nav ml-auto">
               <li class="nav-item">
                 <a href="#live-classes" class="nav-link font-weight-bold mr-5">Live Classes</a>
               </li>
@@ -64,7 +64,9 @@
           <!-- <div class="embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item bg-light " src="" allowfullscreen></iframe>
           </div> -->
-          <img src="./assets/img/video-frame.JPG" class="bg-light rounded p-3" alt="video-frame" srcset="" />
+          <a href="https://www.youtube.com/" target="_blank">
+            <img id="video-frame" src="./assets/img/video-frame.JPG" class="bg-light rounded p-3" alt="video-frame" srcset="" />
+          </a>
         </div>
       </div>
 
@@ -246,7 +248,9 @@
       <section id="live-classes" class="container-fluid mt-5 pt-5">
         <p class="display-4 font-weight-bold text-center mt-5 mb-5">Live <span class="text-primary">Classes</span></p>
         <div class="d-inline-block float-left">
-          <img src="./assets/img/live-class-video.JPG" class="rounded p-3" alt="live-class-video" />
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="./assets/img/live-class-video.JPG" class="shadow bg-white border rounded p-3" alt="live-class-video" />
+          </a>
         </div>
         <div class="d-inline-block float-right">
           <div class="d-flex mt-5 pt-5">
@@ -300,10 +304,12 @@
       <!-- Courses -->
       <section id="course">
         <!-- JEE Mains & Advanced Preparation -->
-        <section class="container-fluid mt-5 pt-5">
+        <section id="iitjee" class="container-fluid mt-5 pt-5">
           <p class="display-4 font-weight-bold text-center mt-5"><span class="text-primary">JEE</span> Mains & Advanced Preparation</p>
           <div class="d-flex align-items-center justify-content-around mt-5">
-            <img src="./assets/img/jee-1.JPG" class="rounded p-3" alt="jee" />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="./assets/img/jee-1.JPG" class="shadow bg-white border rounded p-3" alt="jee" />
+            </a>
             <div class="p-5 text-center">
               <p class="h1 text-primary font-weight-bold">Micro concept videos</p>
               <p class="h3">Find multilingual video explanations important and frequently confused concepts from every subjects</p>
@@ -316,10 +322,13 @@
         </section>
 
         <!-- NEET Preparation -->
-        <section class="container-fluid mt-5 mt-5 pt-5">
+        <section id="neet" class="container-fluid mt-5 mt-5 pt-5">
           <p class="display-4 font-weight-bold text-center mt-5"><span class="text-primary">NEET</span> Preparation</p>
           <div class="d-flex align-items-center justify-content-around mt-5">
-            <img src="./assets/img/jee-1.JPG" class="rounded p-3" alt="jee" />
+            <a href="https://www.youtube.com/" target="_blank">
+              <img src="./assets/img/jee-1.JPG" class="shadow bg-white border rounded p-3" alt="neet" />
+            </a>
+
             <div class="p-5 text-center">
               <p class="h1 text-primary font-weight-bold">Micro concept videos</p>
               <p class="h3">Find multilingual video explanations important and frequently confused concepts from every subjects</p>
@@ -335,7 +344,7 @@
         <section id="exam" class="container-fluid mt-5 pt-5">
           <p class="display-4 font-weight-bold text-primary text-center mt-5">Explore the subject with us!</p>
           <div class="row mx-5 px-5 mt-5 pt-5">
-            <div class="col mr-5 pt-4 px-2 shadow-sm">
+            <div class="col bg-white mr-5 pt-4 px-2 shadow-sm">
               <div class="d-flex flex-column justify-content-around align-items-center">
                 <div class="mr-2 mb-3">
                   <i class="fa fa-calculator fa-5x" aria-hidden="true"></i>
@@ -346,7 +355,7 @@
               </div>
             </div>
 
-            <div class="col mr-5 pt-4 px-2 shadow-sm">
+            <div class="col bg-white mr-5 pt-4 px-2 shadow-sm">
               <div class="d-flex flex-column justify-content-around align-items-center">
                 <div class="mr-2 mb-3">
                   <i class="fa fa-grav fa-5x" aria-hidden="true"></i>
@@ -357,7 +366,7 @@
               </div>
             </div>
 
-            <div class="col mr-5 pt-4 px-2 shadow-sm">
+            <div class="col bg-white mr-5 pt-4 px-2 shadow-sm">
               <div class="d-flex flex-column justify-content-around align-items-center">
                 <div class="mr-2 mb-3">
                   <i class="fa fa-flask fa-5x" aria-hidden="true"></i>
@@ -368,7 +377,7 @@
               </div>
             </div>
 
-            <div class="col shadow-sm pt-4 px-2">
+            <div class="col bg-white shadow-sm pt-4 px-2">
               <div class="d-flex flex-column justify-content-around align-items-center">
                 <div class="mr-2 mb-3">
                   <i class="fa fa-heartbeat fa-5x" aria-hidden="true"></i>
@@ -390,7 +399,7 @@
         <p class="display-4 font-weight-bold text-center mt-5"><span class="text-primary">Free access</span> to 5000+ books</p>
         <p class="lead text-center mt-3 px-5">Get access to virtual library of 5000+ text books and reference books of various stateboards and competitive exams</p>
         <div class="row mx-5 px-5 pt-5">
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -406,7 +415,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -422,7 +431,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -438,7 +447,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -454,7 +463,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -472,7 +481,7 @@
         </div>
 
         <div class="row mx-5 px-5 my-5">
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -488,7 +497,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -504,7 +513,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -520,7 +529,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -536,7 +545,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mb-3">
                 <svg width="5rem" height="5rem" viewBox="0 0 16 16" class="bi bi-book-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -559,7 +568,7 @@
         <p class="display-4 font-weight-bold text-primary text-center mt-5">State Boards</p>
         <p class="lead text-center mt-3 px-5">Learn your board syllabus from the best teachers with us.</p>
         <div class="row mx-5 px-5 pt-5">
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/maharastra.JPG" alt="mh" />
@@ -570,7 +579,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/punjab.JPG" alt="pb" />
@@ -581,7 +590,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/andhra-pradesh.JPG" alt="ap" />
@@ -592,7 +601,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/west-bengal.JPG" alt="wb" />
@@ -603,7 +612,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mb-3">
                 <img src="./assets/img/uttar-pradesh.JPG" alt="up" />
@@ -616,7 +625,7 @@
         </div>
 
         <div class="row mx-5 px-5 my-5">
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/kerela.JPG" alt="ker" />
@@ -627,7 +636,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/rajasthan.JPG" alt="raj" />
@@ -638,7 +647,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/gujrat.JPG" alt="guj" />
@@ -649,7 +658,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mr-2 mb-3">
                 <img src="./assets/img/tamil-nadu.JPG" alt="tn" />
@@ -660,7 +669,7 @@
             </div>
           </div>
 
-          <div class="col shadow-sm mr-5 pt-4 px-2">
+          <div class="col bg-white shadow-sm mr-5 pt-4 px-2">
             <div class="d-flex flex-column justify-content-around align-items-center">
               <div class="mb-3">
                 <img src="./assets/img/madhya-pradesh.JPG" alt="mp" />
@@ -674,7 +683,7 @@
       </section>
 
       <!-- Meet our experts -->
-      <section class="container-fluid mt-5 pt-5">
+      <section id="experts-say" class="container-fluid mt-5 pt-5">
         <p class="display-4 font-weight-bold text-center mt-5">Meet our expert tutors</p>
         <a href="#" class="text-dark">
           <svg width="2rem" height="2rem" viewBox="0 0 16 16" class="bi bi-chevron-left d-block ml-5 mr-auto" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -686,7 +695,7 @@
           <div class="d-flex justify-content-start align-items-center my-5">
             <div class="d-flex mx-5">
               <img src="./assets/img/profile-pic.jpg" class="rounded-circle" style="height: 20vh" alt="" />
-              <div class="shadow-sm-sm ml-3 p-4">
+              <div class="shadow-sm ml-3 p-4">
                 <p class="h5 font-weight-bold mb-2">Shivani Arora</p>
                 <p class="m-0">Lorem, ipsum dolor</p>
                 <p class="m-0">jhasXHXHJ</p>
@@ -695,7 +704,7 @@
             </div>
             <div class="d-flex mx-5">
               <img src="./assets/img/profile-pic.jpg" class="rounded-circle" style="height: 20vh" alt="" />
-              <div class="shadow-sm-sm ml-3 p-4">
+              <div class="shadow-sm ml-3 p-4">
                 <p class="h5 font-weight-bold mb-2">Shivani Arora</p>
                 <p class="m-0">Lorem, ipsum dolor</p>
                 <p class="m-0">jhasXHXHJ</p>
@@ -709,7 +718,7 @@
           <div class="d-flex justify-content-start align-items-center my-5">
             <div class="d-flex mx-5">
               <img src="./assets/img/profile-pic.jpg" class="rounded-circle" style="height: 20vh" alt="" />
-              <div class="shadow-sm-sm ml-3 p-4">
+              <div class="shadow-sm ml-3 p-4">
                 <p class="h5 font-weight-bold mb-2">Shivani Arora</p>
                 <p class="m-0">Lorem, ipsum dolor</p>
                 <p class="m-0">jhasXHXHJ</p>
@@ -718,7 +727,7 @@
             </div>
             <div class="d-flex mx-5">
               <img src="./assets/img/profile-pic.jpg" class="rounded-circle" style="height: 20vh" alt="" />
-              <div class="shadow-sm-sm ml-3 p-4">
+              <div class="shadow-sm ml-3 p-4">
                 <p class="h5 font-weight-bold mb-2">Shivani Arora</p>
                 <p class="m-0">Lorem, ipsum dolor</p>
                 <p class="m-0">jhasXHXHJ</p>
@@ -735,18 +744,18 @@
       </section>
 
       <!-- See what our students have to say -->
-      <section class="container-fluid mt-5 pt-5 mb-5 pb-5">
+      <section id="students-say" class="container-fluid mt-5 pt-5 mb-5 pb-5">
         <p class="display-4 font-weight-bold text-center mt-5">See what our students have to say</p>
         <div class="row mt-5 mx-5">
           <!-- <div class="col d-inline-block embed-responsive embed-responsive-16by9">
             <iframe class="embed-responsive-item bg-light rounded p-2" src="" allowfullscreen></iframe>
           </div> -->
-          <img src="./assets/img/video-frame.JPG" class="bg-light rounded p-3" alt="video-frame" srcset="" />
+          <a href="https://www.youtube.com/" target="_blank"> <img id="video-frame" src="./assets/img/video-frame.JPG" class="bg-light rounded p-3" alt="video-frame" srcset="" /></a>
           <div class="d-inline-block col">
             <p class="text-right">Subjects</p>
             <div class="d-flex justify-content-center mt-5 pt-5">
               <img src="./assets/img/profile-pic.jpg" class="rounded-circle" style="height: 20vh" alt="" />
-              <div class="shadow-sm-sm ml-3 p-4">
+              <div class="shadow-sm ml-3 p-4">
                 <p class="h5 font-weight-bold mb-2">Shivani Arora</p>
                 <p class="m-0">Lorem, ipsum dolor</p>
                 <p class="m-0">jhasXHXHJ</p>
@@ -766,13 +775,13 @@
       </section>
 
       <!-- Download the app for free -->
-      <section class="container-fluid mt-5 pt-5 mb-5 pb-5">
+      <section class="container-fluid my-5">
         <button class="btn btn-danger d-block mx-auto mt-5 px-3 py-2">Download the app for free</button>
       </section>
     </main>
 
     <!-- FOOTER -->
-    <footer class="container-fluid mt-5 pb-5 bg-dark text-light">
+    <footer class="container-fluid border mt-5 pb-5 bg-dark text-light">
       <p class="text-center mt-5">Developed by Abhinav</p>
       <div class="text-center">
         <span class="text-center">Reach me at: </span>

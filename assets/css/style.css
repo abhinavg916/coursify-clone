@@ -1,13 +1,59 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap");
 
 * {
-  /* margin: 0;
-  padding: 0;
-  box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
 }
 
-input[type="radio"] {
-  height: 20px;
-  width: 20px;
+#navs li a {
+  transition: all 0.15s ease-out;
+}
+
+#navs li a:hover {
+  transform: scale(1.1);
+}
+
+#hero {
+  background: url("../img/Cover1.png") no-repeat center center/cover;
+}
+
+#video-library {
+  background: url("../img/Cover1.png") no-repeat center center/cover;
+}
+
+#live-classes {
+  background: url("../img/Cover2.png") no-repeat center center/cover;
+}
+
+#iitjee {
+  background: url("../img/Cover1.png") no-repeat center center/cover;
+}
+
+#neet {
+  background: url("../img/Cover2.png") no-repeat center center/cover;
+}
+
+#exam {
+  background: url("../img/Cover1.png") no-repeat center center/cover;
+}
+
+#book {
+  background: url("../img/Cover1.png") no-repeat center center/cover;
+}
+
+#board {
+  background: url("../img/Cover2.png") no-repeat center center/cover;
+}
+
+#students-say {
+  background: url("../img/Cover2.png") no-repeat center center/cover;
+}
+
+#video-frame {
+  background: linear-gradient(45deg, #4a60a1, #de3962);
+  border: none !important;
+  border-radius: 20px !important;
+}
+
+footer a {
+  text-decoration: none;
 }
