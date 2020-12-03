@@ -6,3 +6,8 @@
   box-sizing: border-box; */
   font-family: "Montserrat", sans-serif;
 }
+
+input[type="radio"] {
+  height: 20px;
+  width: 20px;
+}
