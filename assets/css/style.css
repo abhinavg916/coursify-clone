@@ -12,40 +12,48 @@
   transform: scale(1.1);
 }
 
-#hero {
-  background: url("../img/Cover1.png") no-repeat center center/cover;
-}
+@media (min-width: 768px) {
+  #hero {
+    background: url("../img/Cover1.png") no-repeat center center/cover;
+  }
 
-#video-library {
-  background: url("../img/Cover1.png") no-repeat center center/cover;
-}
+  #video-library {
+    background: url("../img/Cover1.png") no-repeat center center/cover;
+  }
 
-#live-classes {
-  background: url("../img/Cover2.png") no-repeat center center/cover;
-}
+  #live-classes {
+    background: url("../img/Cover2.png") no-repeat center center/cover;
+  }
 
-#iitjee {
-  background: url("../img/Cover1.png") no-repeat center center/cover;
-}
+  #iitjee {
+    background: url("../img/Cover1.png") no-repeat center center/cover;
+  }
 
-#neet {
-  background: url("../img/Cover2.png") no-repeat center center/cover;
-}
+  #neet {
+    background: url("../img/Cover2.png") no-repeat center center/cover;
+  }
 
-#exam {
-  background: url("../img/Cover1.png") no-repeat center center/80%;
-}
+  #exam {
+    background: url("../img/Cover1.png") no-repeat center center/80%;
+  }
 
-#book {
-  background: url("../img/Cover1.png") no-repeat center center/cover;
-}
+  #book {
+    background: url("../img/Cover1.png") no-repeat center center/cover;
+  }
 
-#board {
-  background: url("../img/Cover2.png") no-repeat center center/cover;
-}
+  #board {
+    background: url("../img/Cover2.png") no-repeat center center/cover;
+  }
 
-#students-say {
-  background: url("../img/Cover2.png") no-repeat center center/cover;
+  #students-say {
+    background: url("../img/Cover2.png") no-repeat center center/cover;
+  }
+
+  header,
+  main {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
 }
 
 .video-frame {
