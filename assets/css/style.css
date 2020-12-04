@@ -48,7 +48,8 @@
   background: url("../img/Cover2.png") no-repeat center center/cover;
 }
 
-#video-frame {
+.video-frame {
+  width: 90%;
   background: linear-gradient(45deg, #4a60a1, #de3962);
   border: none !important;
   border-radius: 20px !important;
