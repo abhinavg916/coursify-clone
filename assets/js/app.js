@@ -41,75 +41,75 @@ $(function () {
 window.sr = ScrollReveal();
 
 sr.reveal(".navbar", {
-  duration: 1500,
+  duration: 2000,
   origin: "bottom",
 });
 
 sr.reveal(".showcase-top", {
-  duration: 1500,
+  duration: 2000,
   origin: "top",
   distance: "300px",
 });
 
 sr.reveal(".showcase-right", {
-  duration: 1500,
+  duration: 2000,
   origin: "right",
-  distance: "300px",
+  distance: "0px",
 });
 
 sr.reveal(".showcase-bottom", {
-  duration: 1500,
+  duration: 2000,
   origin: "bottom",
   distance: "300px",
 });
 
 sr.reveal(".showcase-left", {
-  duration: 1500,
+  duration: 2000,
   origin: "left",
-  distance: "300px",
+  distance: "0px",
 });
 
 sr.reveal(".showcase-simple", {
-  duration: 1500,
+  duration: 2000,
   origin: "bottom",
 });
 
 sr.reveal(".showcase-btn", {
-  duration: 1500,
-  delay: 1500,
+  duration: 2000,
+  delay: 500,
   origin: "bottom",
 });
 
 sr.reveal(".info-top", {
-  duration: 1500,
+  duration: 2000,
   origin: "top",
   distance: "300px",
   viewFactor: 0.2,
 });
 
 sr.reveal(".info-right", {
-  duration: 1500,
+  duration: 2000,
   origin: "right",
-  distance: "300px",
+  distance: "0px",
   viewFactor: 0.2,
 });
 
 sr.reveal(".info-bottom", {
-  duration: 1500,
+  duration: 2000,
   origin: "bottom",
   distance: "300px",
   viewFactor: 0.2,
 });
 
 sr.reveal(".info-left", {
-  duration: 1500,
+  duration: 2000,
   origin: "left",
-  distance: "300px",
+  distance: "0px",
   viewFactor: 0.2,
 });
 
 sr.reveal(".info-simple", {
-  duration: 1500,
+  duration: 2000,
   origin: "bottom",
   distance: "300px",
   viewFactor: 0.2,
