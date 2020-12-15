@@ -4,15 +4,7 @@
 
 > Tip: Make sure to have good a internet connection
 
-- Frontend Assignment of Coursify
 - Visit - [Coursify](https://clever-borg-6320b0.netlify.app/)
-
-## Tech Used
-
-- HTML
-- CSS
-- Bootstrap 4
-- JavaScript
 
 ---
 
